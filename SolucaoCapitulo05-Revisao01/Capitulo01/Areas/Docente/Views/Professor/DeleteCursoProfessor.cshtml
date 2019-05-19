@@ -1,0 +1,107 @@
+﻿@model Modelo.Docente.CursoProfessor
+
+@{
+    Layout = "_LayoutIES";
+}
+
+@section Styles {
+    <environment include="Development">
+        <link rel="stylesheet" href="~/lib/font-awesome/css/font-awesome.min.css" />
+    </environment>
+    <environment exclude="Development">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+              asp-fallback-href="~/lib/font-awesome/css/font-awesome.min.css"
+              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
+    </environment>
+}
+
+    <div class="card-block">
+        <div class="card-header text-white bg-secondary text-center h1">Exibindo um curso/professor existente</div>
+
+        @{await Html.RenderPartialAsync("~/Areas/Docente/Views/Professor/_PartialDetailsContentCardCP.cshtml", Model); }
+
+        <div class="card-footer bg-info text-center text-white">
+            <a asp-action="ListaCursoProfessor" class="btn btn-danger">Retornar à listagem de Curso/Professores</a>
+            <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#modalConfirmationDelete">
+                Remover Curso/Professor
+            </button>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalConfirmationDelete" tabindex="-1" role="dialog" aria-labelledby="deleteModal" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="deleteModal">Remoção do professor de um curso</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Confirma a exclusão do professor @Model.Professor.Nome.ToUpper() do curso @Model.Curso.Nome ??</p>
+                </div>
+                <div class="modal-footer">
+                    <form asp-action="DeleteCursoProfessor">
+                        <input type="hidden" asp-for="CursoID" />
+                        <input type="hidden" asp-for="ProfessorID" />
+                        <input type="submit" value="Remover um professor de um curso" class="btn btn-default" /> |
+                        <a asp-action="Index">Back to List</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>DeleteCursoProfessor</title>
+</head>
+<body>
+
+    <h3>Are you sure you want to delete this?</h3>
+    <div>
+        <h4>CursoProfessor</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Curso)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Curso.Nome)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Professor)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Professor.ProfessorID)
+            </dd>
+        </dl>
+
+        <form asp-action="DeleteCursoProfessor">
+            <input type="hidden" asp-for="CursoID" />
+            <input type="hidden" asp-for="ProfessorID" />
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            <a asp-action="Index">Back to List</a>
+        </form>
+    </div>
+</body>
+</html>

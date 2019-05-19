@@ -1,0 +1,75 @@
+﻿@model IEnumerable<Modelo.Docente.CursoProfessor>
+
+@{
+    Layout = "_LayoutIES";
+}
+
+@section Styles {
+    <environment include="Development">
+        <link rel="stylesheet" href="~/lib/datatables/css/jquery.dataTables.min.css" />
+    </environment>
+    <environment exclude="Development">
+        <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css"
+              asp-fallback-href="~/lib/datatables/css/jquery.dataTables.min.css"
+              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
+    </environment>
+}
+
+@if (@TempData["Message"] != null)
+{
+    <div class="alert alert-success" role="alert">
+        @TempData["Message"]
+    </div>
+}
+
+<div class="card-block">
+    <div class="card-header text-white bg-primary text-center h1">Registro de Professores nos cursos</div>
+    <div class="card-body">
+        <table id="tabela_cursoprofessor">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Curso)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Professor)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Curso.Nome)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Professor.Nome)
+                        </td>
+                        
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <div class="card-footer bg-success text-center">
+        <a asp-action="AdicionarProfessor" class="btn-success">Adicionar Professor ao curso</a>
+    </div>
+</div>
+
+@section ScriptPage {
+    <environment include="Development">
+        <script src="~/lib/datatables/js/jquery.dataTables.min.js"></script>
+    </environment>
+    <environment exclude="Development">
+        <script src="//cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"
+                asp-fallback-src="~/lib/datatables/js/jquery.dataTables.min.js"></script>
+    </environment>
+    <script type="text/javascript">$(document).ready(function () {
+    $('#tabela_cursoprofessor').DataTable({
+                "order": [[1, "asc"]]
+            });
+        });</script>
+}
+

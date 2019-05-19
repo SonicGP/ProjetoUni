@@ -1,0 +1,37 @@
+﻿@model Modelo.Docente.CursoProfessor
+
+
+<div class="card-body">
+    <div class="form-group">
+        <label asp-for="CursoID" class="control-label"></label>
+        <br />
+        <div class="input-group">
+            <div class="input-group-append">
+                <span class="input-group-text">
+                    <i class="fa fa-key" aria-hidden="true"></i>
+                </span>
+            </div>
+            <input asp-for="CursoID" class="form-control" disabled="disabled" />
+        </div>
+        <label asp-for="Curso.Nome" class="control-label"></label>
+        <br />
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text">
+                    <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                </span>
+            </div>
+            <input asp-for="Curso.Nome" class="form-control" disabled="disabled" />
+        </div>
+        <label asp-for="Professor.Nome" class="control-label"></label>
+        <br />
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text">
+                    <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                </span>
+            </div>
+            <input asp-for="Professor.Nome" class="form-control" disabled="disabled" />
+        </div>
+    </div>
+</div>

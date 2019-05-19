@@ -1,0 +1,39 @@
+C:\Users\evert\Documents\GitHub\asp-net-core-mvc-casa-do-codigo\SolucaoCapitulo05-Revisao01\Modelo\bin\Debug\netcoreapp2.1\Modelo.deps.json
+C:\Users\evert\Documents\GitHub\asp-net-core-mvc-casa-do-codigo\SolucaoCapitulo05-Revisao01\Modelo\bin\Debug\netcoreapp2.1\Modelo.dll
+C:\Users\evert\Documents\GitHub\asp-net-core-mvc-casa-do-codigo\SolucaoCapitulo05-Revisao01\Modelo\bin\Debug\netcoreapp2.1\Modelo.pdb
+C:\Users\evert\Documents\GitHub\asp-net-core-mvc-casa-do-codigo\SolucaoCapitulo05-Revisao01\Modelo\obj\Debug\netcoreapp2.1\Modelo.csprojAssemblyReference.cache
+C:\Users\evert\Documents\GitHub\asp-net-core-mvc-casa-do-codigo\SolucaoCapitulo05-Revisao01\Modelo\obj\Debug\netcoreapp2.1\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\evert\Documents\GitHub\asp-net-core-mvc-casa-do-codigo\SolucaoCapitulo05-Revisao01\Modelo\obj\Debug\netcoreapp2.1\Modelo.AssemblyInfoInputs.cache
+C:\Users\evert\Documents\GitHub\asp-net-core-mvc-casa-do-codigo\SolucaoCapitulo05-Revisao01\Modelo\obj\Debug\netcoreapp2.1\Modelo.AssemblyInfo.cs
+C:\Users\evert\Documents\GitHub\asp-net-core-mvc-casa-do-codigo\SolucaoCapitulo05-Revisao01\Modelo\obj\Debug\netcoreapp2.1\Modelo.dll
+C:\Users\evert\Documents\GitHub\asp-net-core-mvc-casa-do-codigo\SolucaoCapitulo05-Revisao01\Modelo\obj\Debug\netcoreapp2.1\Modelo.pdb
+C:\Users\anderson.gomes.CEE\Desktop\asp-net-core-mvc-casa-do-codigo-master\SolucaoCapitulo05-Revisao01\Modelo\bin\Debug\netcoreapp2.1\Modelo.deps.json
+C:\Users\anderson.gomes.CEE\Desktop\asp-net-core-mvc-casa-do-codigo-master\SolucaoCapitulo05-Revisao01\Modelo\bin\Debug\netcoreapp2.1\Modelo.dll
+C:\Users\anderson.gomes.CEE\Desktop\asp-net-core-mvc-casa-do-codigo-master\SolucaoCapitulo05-Revisao01\Modelo\bin\Debug\netcoreapp2.1\Modelo.pdb
+C:\Users\anderson.gomes.CEE\Desktop\asp-net-core-mvc-casa-do-codigo-master\SolucaoCapitulo05-Revisao01\Modelo\obj\Debug\netcoreapp2.1\Modelo.csprojAssemblyReference.cache
+C:\Users\anderson.gomes.CEE\Desktop\asp-net-core-mvc-casa-do-codigo-master\SolucaoCapitulo05-Revisao01\Modelo\obj\Debug\netcoreapp2.1\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\anderson.gomes.CEE\Desktop\asp-net-core-mvc-casa-do-codigo-master\SolucaoCapitulo05-Revisao01\Modelo\obj\Debug\netcoreapp2.1\Modelo.AssemblyInfoInputs.cache
+C:\Users\anderson.gomes.CEE\Desktop\asp-net-core-mvc-casa-do-codigo-master\SolucaoCapitulo05-Revisao01\Modelo\obj\Debug\netcoreapp2.1\Modelo.AssemblyInfo.cs
+C:\Users\anderson.gomes.CEE\Desktop\asp-net-core-mvc-casa-do-codigo-master\SolucaoCapitulo05-Revisao01\Modelo\obj\Debug\netcoreapp2.1\Modelo.dll
+C:\Users\anderson.gomes.CEE\Desktop\asp-net-core-mvc-casa-do-codigo-master\SolucaoCapitulo05-Revisao01\Modelo\obj\Debug\netcoreapp2.1\Modelo.pdb
+C:\Users\ander\Desktop\Estudos\Projetos\Estudo Projeto\asp-net-core-mvc-casa-do-codigo-master\SolucaoCapitulo05-Revisao01\Modelo\bin\Debug\netcoreapp2.1\Modelo.deps.json
+C:\Users\ander\Desktop\Estudos\Projetos\Estudo Projeto\asp-net-core-mvc-casa-do-codigo-master\SolucaoCapitulo05-Revisao01\Modelo\bin\Debug\netcoreapp2.1\Modelo.dll
+C:\Users\ander\Desktop\Estudos\Projetos\Estudo Projeto\asp-net-core-mvc-casa-do-codigo-master\SolucaoCapitulo05-Revisao01\Modelo\bin\Debug\netcoreapp2.1\Modelo.pdb
+C:\Users\ander\Desktop\Estudos\Projetos\Estudo Projeto\asp-net-core-mvc-casa-do-codigo-master\SolucaoCapitulo05-Revisao01\Modelo\obj\Debug\netcoreapp2.1\Modelo.csprojAssemblyReference.cache
+C:\Users\ander\Desktop\Estudos\Projetos\Estudo Projeto\asp-net-core-mvc-casa-do-codigo-master\SolucaoCapitulo05-Revisao01\Modelo\obj\Debug\netcoreapp2.1\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\ander\Desktop\Estudos\Projetos\Estudo Projeto\asp-net-core-mvc-casa-do-codigo-master\SolucaoCapitulo05-Revisao01\Modelo\obj\Debug\netcoreapp2.1\Modelo.AssemblyInfoInputs.cache
+C:\Users\ander\Desktop\Estudos\Projetos\Estudo Projeto\asp-net-core-mvc-casa-do-codigo-master\SolucaoCapitulo05-Revisao01\Modelo\obj\Debug\netcoreapp2.1\Modelo.AssemblyInfo.cs
+C:\Users\ander\Desktop\Estudos\Projetos\Estudo Projeto\asp-net-core-mvc-casa-do-codigo-master\SolucaoCapitulo05-Revisao01\Modelo\obj\Debug\netcoreapp2.1\Modelo.dll
+C:\Users\ander\Desktop\Estudos\Projetos\Estudo Projeto\asp-net-core-mvc-casa-do-codigo-master\SolucaoCapitulo05-Revisao01\Modelo\obj\Debug\netcoreapp2.1\Modelo.pdb
+C:\Users\ander\Desktop\SolucaoCapitulo05-Revisao01\Modelo\bin\Debug\netcoreapp2.1\Modelo.deps.json
+C:\Users\ander\Desktop\SolucaoCapitulo05-Revisao01\Modelo\bin\Debug\netcoreapp2.1\Modelo.dll
+C:\Users\ander\Desktop\SolucaoCapitulo05-Revisao01\Modelo\bin\Debug\netcoreapp2.1\Modelo.pdb
+C:\Users\ander\Desktop\SolucaoCapitulo05-Revisao01\Modelo\obj\Debug\netcoreapp2.1\Modelo.csprojAssemblyReference.cache
+C:\Users\ander\Desktop\SolucaoCapitulo05-Revisao01\Modelo\obj\Debug\netcoreapp2.1\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\ander\Desktop\SolucaoCapitulo05-Revisao01\Modelo\obj\Debug\netcoreapp2.1\Modelo.AssemblyInfoInputs.cache
+C:\Users\ander\Desktop\SolucaoCapitulo05-Revisao01\Modelo\obj\Debug\netcoreapp2.1\Modelo.AssemblyInfo.cs
+C:\Users\ander\Desktop\SolucaoCapitulo05-Revisao01\Modelo\obj\Debug\netcoreapp2.1\Modelo.dll
+C:\Users\ander\Desktop\SolucaoCapitulo05-Revisao01\Modelo\obj\Debug\netcoreapp2.1\Modelo.pdb
+C:\Users\ander\Desktop\SolucaoCapitulo05-Revisao01\Modelo\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\ander\Desktop\SolucaoCapitulo05-Revisao01\Modelo\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\ander\Desktop\SolucaoCapitulo05-Revisao01\Modelo\obj\Debug\netcoreapp2.1\Modelo.csproj.CopyComplete
